@@ -10,4 +10,4 @@ This simple workday scheduler can be used to input information to help stay orga
 ![image](https://user-images.githubusercontent.com/92446866/144768462-bff20b3b-462a-467e-bca0-4e06e106cc34.png)
 
 ## The link to my github repository : https://github.com/amuldrow/Workday-Scheduler
-## The link to my deployed application:
+## The link to my deployed application:https://github.com/amuldrow/Workday-Scheduler.git
