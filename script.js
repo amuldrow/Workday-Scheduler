@@ -20,18 +20,20 @@ function timeBlockColor() {
     var hour = moment().hours();
     
     $(".time-block").each(function() {
-        var currentHour = parseInt($(this).attr("id"));
+        var currentTime = parseInt($(this).attr("id"));
 
 
-        if (currentHour > hour) {
+        if (currentTime > hour) {
             $(this).addClass("future");
-        } else if (currentHour === hour) {
+        } else if (currentTime === hour) {
             $(this).addClass("present");
         } else {
             $(this).addClass("past");
         }
     })
 };
+
+
 function timetrack() {
     var Timenow = moment().hour();
 
