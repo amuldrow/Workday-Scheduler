@@ -31,7 +31,7 @@ function timeBlockColor() {
             $(this).addClass("past");
         }
     })
-});
+};
 function timetrack() {
     var Timenow = moment().hour();
 
@@ -69,15 +69,4 @@ $("#hour4 .description").val(localStorage.getItem("hour4"));
 $("#hour5 .description").val(localStorage.getItem("hour5"));
 
 timetrack();
-
-
-// for (var i = 8; i < 18; i++) {
-//     if (i < currenthour) {
-//         document.getElementById(i.toString()).classList.add('past');
-//     } else if (i === currenthour ) {
-//        document.getElementById(i.toString()).classList.add('present');
-//     } else (i> currenthour); {
-//         document.getElementById(i.toString()).classList.add('future');
-//     }
-// }
-// });
+});
